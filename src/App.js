@@ -25,6 +25,7 @@ function App() {
 			<Card/>
 			<Input/>
 			<Footer/>
+			<Footer/>
 		</>
 	);
 }

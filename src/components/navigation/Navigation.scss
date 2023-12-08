@@ -1,0 +1,63 @@
+.navigation {
+    margin: 20px 0;
+    border-bottom: 2px solid #f3f3f3;
+    
+
+    
+    &__row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &__search {
+        padding: 10px 20px;
+        border: 1px solid #000;
+        border-radius: 30px;
+        background-color: #f7f6f6;
+    }
+
+    &__profile {
+        display: flex;
+        gap: 20px;
+        a {
+            font-size: 22px;
+            width: 1.4rem;
+            height: 1.5rem;
+            color: #494949;
+            transition: .5s all;
+            &:hover {
+                color: rgb(79, 79, 236);
+            }
+        }
+    }
+    &__link-like {
+        position: relative;
+        &::before {
+            content: "";
+            font-size: 5px;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: -7px;
+            right: -10px;
+            background-color: #b3f2ff;
+            border-radius: 50px;
+        }
+    }
+    &__link-cart {
+        position: relative;
+        &::before {
+            content: "";
+            font-size: 5px;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: -7px;
+            right: -10px;
+            background-color: #b3f2ff;
+            border-radius: 50px;
+        }
+    }
+}
